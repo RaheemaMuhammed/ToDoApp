@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.heading{
+   text-align: center;
+   margin-top: 20px;
+   color: #A75D5D;
+}
+
+.todos{
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+.addTask{
+    padding: 3px;
+    background-color: #D3756B;
+    border-radius: 6px;
+    margin-left: 90%;
+    font-weight: bold;
+    width: 10%;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #A75D5D;
+    color: #FFC3A1;
+    
+}
+.addTask:hover{
+    background-color: #F0997D;
+    color: #A75D5D;
+}
+@media (max-width: 768px) {
+    .todos {
+        width: 80%; 
+    }
+    .addTask{
+    margin-left: 80%;
+        width: 20%;
+    }
+}
+@media (max-width: 480px) {
+    .todos {
+        width: 90%; 
+    }
+    .addTask{
+    margin-left: 70%;
+    width: 30%;
+
+    }
+}
+
+.nothing{
+    text-align: center;
+}
